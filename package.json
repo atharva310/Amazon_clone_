@@ -1,0 +1,34 @@
+{
+  "name": "with-redux-toolkit",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && next",
+    "build": "next build",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && expo start "
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.12",
+    "@reduxjs/toolkit": "1.5.0",
+    "@stripe/stripe-js": "^1.42.0",
+    "@tailwindcss/line-clamp": "^0.2.0",
+    "axios": "^1.1.3",
+    "firebase": "^9.13.0",
+    "firebase-admin": "^11.2.0",
+    "micro": "^9.4.1",
+    "moment": "^2.29.4",
+    "next": "latest",
+    "next-auth": "^4.15.0",
+    "react": "17.0.1",
+    "react-currency-formatter": "^1.1.0",
+    "react-dom": "17.0.1",
+    "react-redux": "7.2.2",
+    "react-responsive-carousel": "^3.2.23",
+    "stripe": "^10.15.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.15",
+    "tailwindcss": "^2.1.2"
+  }
+}
